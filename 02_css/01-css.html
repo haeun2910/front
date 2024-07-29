@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 2. HTML 문서에 적용되는 CSS -->
+     <!-- 장점: 빠르고 비교적 빠르게 적용할 수 있고 
+      css따로 관리할수있다
+      HTML전체 적영 -->
+      <!-- 단점: 윕사이트가 여러 HTML로 구성될 경우
+       마찬가지로 반복을 해야됨 -->
+    
+    <style>
+        /* CSS Embedded */
+        h1{
+            font-size: 50px;
+            text-align: center;
+
+        }
+        p{
+            font-size: 20px;
+            color: red;
+            text-align: justify;
+
+        }
+    </style>
+    <!--3.  외부 파일로 관리하는 CSS -->
+     <!-- External CSS -->
+      <!-- 여러 페이지에 걸처서 동일한 스타일 적용가능 -->
+       <!-- 단점: CSS를 받아오는 요청이 1회 더 추가된다 -->
+    <link rel="stylesheet" href="01-styles.css">
+</head>
+<body>
+    <!-- 1. 하나의 요소에 적용되는 css -->
+     <!-- Inline CSS -->
+      <!-- 장점: 빠르고 정확하다 -->
+       <!-- 단점: 반복을 엄청 많이 한다 -->
+    <h1 style="text-align: start; color: blue;">Hello CSS!</h1>
+    <p style="color: skyblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quasi aliquid quis repellat facere soluta ipsum excepturi est distinctio in veniam eveniet illo dolores consequatur, dolorem commodi suscipit? Laudantium, ipsum!</p>
+    <h1>this is an heading 1</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas delectus, dolore nostrum perferendis vitae incidunt ducimus saepe nam fuga ea repellendus ipsam assumenda reiciendis quam, aut consequatur at reprehenderit cumque?</p>
+    
+    <h2>Extenal CSS</h2>
+
+</body>
+</html>
